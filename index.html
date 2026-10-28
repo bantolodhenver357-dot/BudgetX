@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0866f5">
+  <meta name="description" content="BudgetX — Tracking your finances.">
+  <title>BudgetX</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" href="./assets/budgetx-logo.png">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="screen" id="welcomeScreen">
+    <section class="welcome-content" aria-label="Welcome to BudgetX">
+      <img class="logo" src="./assets/budgetx-logo.png" alt="BudgetX logo">
+      <h1>Budget<span>X</span></h1>
+      <p class="tagline">Tracking your finances</p>
+    </section>
+    <div class="bottom-area">
+      <button class="primary-button" id="startButton" type="button">Let's make it a habit</button>
+    </div>
+  </main>
+
+  <main class="screen next-screen hidden" id="nextScreen">
+    <section class="next-content">
+      <img class="small-logo" src="./assets/budgetx-logo.png" alt="BudgetX logo">
+      <h2>Welcome to BudgetX</h2>
+      <p class="tagline">Your journey to better money habits starts here.</p>
+      <p class="notice">This is your first setup screen. Your income, expenses, budgets, and phone-only storage can be added next.</p>
+      <button class="primary-button back-button" id="backButton" type="button">Back</button>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
